@@ -260,7 +260,7 @@ def label_text():
     else:
         login()
     fresh_html_list = [[s.post(fresh_url,i).text for i in k] for k in fresh_data_list]
-  
+
     order = ['09:00-10:00','10:00-11:00','11:00-12:00','12:00-13:00','13:00-14:00','14:00-15:00','15:00-16:00','16:00-17:00','17:00-18:00','18:00-19:00','19:00-20:00','20:00-21:00']    
     out = []    
     for i in fresh_html_list:
